@@ -1,0 +1,5 @@
+CREATE FUNCTION GetDiscount(@price INT)
+RETURNS INT AS
+BEGIN
+   RETURN @price - 100;
+END;

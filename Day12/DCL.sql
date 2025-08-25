@@ -1,0 +1,2 @@
+GRANT SELECT ON Students TO user1;
+REVOKE SELECT ON Students FROM user1;
